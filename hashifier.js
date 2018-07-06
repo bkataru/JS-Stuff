@@ -2,6 +2,10 @@
 * Hashifier: My feeble attempt at a hashing algorithm.
 * Security: Untested, not recommended for production environments. The algo was made for educational purposes only.
 * Standard hash size: 120 chars
+* Required packages: None.
+* Follows the Common.js module pattern so this module can be imported into any Node.js program.
+* Methods:
+*   1. hashifier.hashify([text], [salt]) -- main method for creating hashes
 * */
 var hashifier = (function() {
     var rotAlgo = function(text, rotNo) {
