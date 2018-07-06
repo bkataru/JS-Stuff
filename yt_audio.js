@@ -1,7 +1,7 @@
 /*
 * Simple module for downloading audio from youtube videos (uses mp3 format).
 * Follows the Common.js module pattern so this module can be imported into any Node.js program.
-* Requirements:
+* Required packages:
 *   1. Common node modules like fs, path, readline
 *   2. ytdl-core
 *
