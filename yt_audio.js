@@ -14,7 +14,6 @@ var yt_audio = (function () {
     var path = require('path');
     var readline = require('readline');
 
-
     return {
         download: function (url) {
             if (!url) {
